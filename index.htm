@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey Arundhati here</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7cdd248ca9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="pic/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hi, I am  <span>Arundhati </span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic/user.png" class="body">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae possimus molestiae ratione ut, eaque sequi dolore sed eius commodi, quae ex quidem nulla nostrum tempore? Corporis minus facere error expedita.</p>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front end</span><br>Developer</li>
+                            <li><span>Front end</span><br>Developer</li>
+                            <li><span>Front end</span><br>Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Internship</span><br>Developer</li>
+                            <li><span>Front end</span><br>Developer</li>
+                            <li><span>Front end</span><br>Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                    
+                        <ul>
+                            <li><span>BTech</span><br>Birla Institute of Technology Mesra</li>
+                            <li><span>Intermediate</span><br>DAV Model School</li>
+                            <li><span>Matriculation</span><br>St. Peter's School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quod corrupti veritatis enim voluptates, dolores in consequatur odio at reprehenderit. Obcaecati accusamus quisquam magnam quis! Quam voluptas nobis doloremque sint.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-rocket"></i>
+                    <h2>Problem solving</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quod corrupti veritatis enim voluptates, dolores in consequatur odio at reprehenderit. Obcaecati accusamus quisquam magnam quis! Quam voluptas nobis doloremque sint.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-tablet-screen-button"></i>
+                    <h2>Machine learning</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quod corrupti veritatis enim voluptates, dolores in consequatur odio at reprehenderit. Obcaecati accusamus quisquam magnam quis! Quam voluptas nobis doloremque sint.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------Portfolio---------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pic/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social media App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nam distinctio architecto ducimus, quibusdam commodi nisi laudantium quos vel fugiat eveniet placeat pariatur officiis rerum id dolorum animi amet! Pariatur?</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pic/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nam distinctio architecto ducimus, quibusdam commodi nisi laudantium quos vel fugiat eveniet placeat pariatur officiis rerum id dolorum animi amet! Pariatur?</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pic/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nam distinctio architecto ducimus, quibusdam commodi nisi laudantium quos vel fugiat eveniet placeat pariatur officiis rerum id dolorum animi amet! Pariatur?</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>                
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-----------------------------------Contact-------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>btech60040.20@bitmesra.ac.in</p>
+                    <p><i class="fa-solid fa-phone"></i>9832361190</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/arundhatimukherjee9/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/strawberries__and_cigarettes/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="pic/Arundhati Mukherjee Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Full name" required>
+                        <input type="email" name="Email" placeholder="Your email id" required>
+                        <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <!-- ------------copy right----------------------- -->
+            <div class="copy-right">
+                <p>Copyright  <i class="fa-regular fa-copyright"></i>   Arundhati Mukherjee </p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
