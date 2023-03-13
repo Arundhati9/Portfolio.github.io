@@ -45,6 +45,7 @@ nav ul li a{
     font-size: 18px;
     position: relative;
 }
+
 nav ul li a::after
 {
     content: '';
@@ -141,8 +142,15 @@ nav ul li a:hover::after
 color: #b54769;
 font-size: 14px;
 }
+.tab-contents ul li span a:hover{
+    color: #fff;
+}
 .tab-contents{
     display: none;
+}
+.tab-contents ul li span a{
+    text-decoration: none;
+    color: #b54769;
 }
 .tab-contents.active-tab{
     display: block;
